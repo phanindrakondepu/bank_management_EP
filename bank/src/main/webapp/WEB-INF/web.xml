@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>SignUpServlet</servlet-name>
+  	<display-name>SignUpServlet</display-name>
+  	<description></description>
+  	<servlet-class>backend.SignUpServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>backend.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BalanceServlet</servlet-name>
+  	<display-name>BalanceServlet</display-name>
+  	<description></description>
+  	<servlet-class>backend.BalanceServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MoneyTransfer</servlet-name>
+  	<display-name>MoneyTransfer</display-name>
+  	<description></description>
+  	<servlet-class>backend.MoneyTransfer</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<display-name>AdminLogin</display-name>
+  	<description></description>
+  	<servlet-class>backend.AdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoanServlet</servlet-name>
+  	<display-name>LoanServlet</display-name>
+  	<description></description>
+  	<servlet-class>backend.LoanServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminServlet</servlet-name>
+  	<display-name>AdminServlet</display-name>
+  	<description></description>
+  	<servlet-class>backend.AdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Profile</servlet-name>
+  	<display-name>Profile</display-name>
+  	<description></description>
+  	<servlet-class>backend.Profile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SignUpServlet</servlet-name>
+  	<url-pattern>/SignUpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BalanceServlet</servlet-name>
+  	<url-pattern>/BalanceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MoneyTransfer</servlet-name>
+  	<url-pattern>/MoneyTransfer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoanServlet</servlet-name>
+  	<url-pattern>/LoanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminServlet</servlet-name>
+  	<url-pattern>/AdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Profile</servlet-name>
+  	<url-pattern>/Profile</url-pattern>
+  </servlet-mapping>
+</web-app>
